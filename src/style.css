@@ -1,0 +1,97 @@
+:root {
+  --main-color: #00aef3;
+  --main-bg-color: black;
+  --secondary-bg-color: #2b2b2b;
+
+  --arial-font: "BPG Arial", sans-serif;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--main-bg-color);
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-family: "BPG Arial Caps";
+
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center; */
+}
+
+.navbar{
+background-color: var(--main-bg-color);
+width: 100vw;
+height: 6vw;
+padding: 20px 120px;
+position: fixed;
+top: 0;
+left: 0;
+opacity: 1;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar .logo{
+  width: 180px;
+}
+
+.navbar .navmenu ul{
+display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.navbar .navmenu li{
+list-style: none;
+cursor: pointer;
+}
+
+.header{
+  position: relative;
+}
+
+.header .hero-image{
+  width: 100%;
+}
+
+.header .hero-image img{
+  width: 100%;
+  object-fit: cover;
+  margin-top: 90px;
+}
+
+.wrapper{
+max-width: 1024px;
+width: 100%;
+margin: 0 auto;
+}
+
+.usaid-information{
+  background-color: var(--secondary-bg-color);
+  padding: 60px 120px;
+  width: 100%;
+
+}
+
+.usaid-information p{
+  font-size: 26px;
+  margin-bottom: 30px;
+  
+}
+
+.usaid-information span{
+  color: var(--main-color);
+  font-size: 20px;
+  
+}
