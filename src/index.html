@@ -4,31 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="header">
         <div class="hero-image">
             <img src="./Images/hero-image.jpg" alt="hero image">
         </div>
-        <div class="navbar">
-            <div class="logo">
-                <img src="./Images/TBCxUSAID logo.svg" alt="TBCxUSAID LOGO">        
-            </div>
-            <div class="navmenu">
-                <ul>
-                    <li>მთავარი</li>
-                    <li>TBC IT</li>
-                    <li>TBC x USAID</li>
-                    <li>რისკები</li>
-                </ul>
+        <div class="navbar-menu">
+            <div class="navbar-menu-wrapper">
+                <div class="logo">
+                    <img src="./Images/TBCxUSAID logo.svg" alt="TBCxUSAID LOGO">        
+                </div>
+                <div class="navmenu">
+                    <ul>
+                        <li>მთავარი</li>
+                        <li>TBC IT</li>
+                        <li class="active">TBC x USAID</li>
+                        <li>რისკები</li>
+                    </ul>
+                </div>
             </div>
         </div>        
     </div>
     
     <div class="usaid-information">
-        <p>„ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა  საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს  სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.</p>
-        <span>გაიგე მეტი</span>
+        <div class="usaid-information-wrapper">         
+            <p>„ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა  საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს  სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.</p>
+            <span>გაიგე მეტი</span>
+        </div>
     </div>
+
+    <div class="courses-area">
+        <div class="courses-area-wrapper">
+            <h1>სასწავლო კურსები</h1>
+            <div class="courses-container">
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/ios.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">iOS Development</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/react.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">React</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/python.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Intro to Python</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/advpython.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Advanced Python</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/cybersecurity.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Advanced Cybersecurity Course</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/tot.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">ToT - Training of Trainers</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/bkchain.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Blockchain</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/devops.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">DevOps</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+                <div class="card course-card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Images/courses/infsecurity.webp" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Information Security Governance</h5>
+                    <p class="card-text">რეგისტრაცია დასრულებულია</p>
+                    <a href="#" class="button-course-details">კურსის დეტალები</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
