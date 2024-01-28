@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TBC x USAID</title>
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -13,6 +15,9 @@
     <div class="header">
         <div class="hero-image">
             <img src="./Images/hero-image.jpg" alt="hero image">
+        </div>
+        <div class="wrapper">
+            <h1>TBC x USAID</br><span>ᲢᲔᲥᲜᲝᲚᲝᲒᲘᲣᲠᲘ ᲒᲐᲜᲐᲗᲚᲔᲑᲘᲡᲗᲕᲘᲡ</span></h1>
         </div>
         <div class="navbar-menu">
             <div class="navbar-menu-wrapper">
@@ -77,7 +82,7 @@
                 <div class="card course-card" style="width: 18rem;">
                     <img class="card-img-top" src="./Images/courses/cybersecurity.webp" alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">Advanced Cybersecurity Course</h5>
+                    <h5 class="card-title">Advanced Cybersecurity</h5>
                     <p class="card-text">რეგისტრაცია დასრულებულია</p>
                     <a href="#" class="button-course-details">კურსის დეტალები</a>
                     </div>
@@ -109,19 +114,145 @@
                 <div class="card course-card" style="width: 18rem;">
                     <img class="card-img-top" src="./Images/courses/infsecurity.webp" alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">Information Security Governance</h5>
+                    <h5 class="card-title">Information Security</h5>
                     <p class="card-text">რეგისტრაცია დასრულებულია</p>
                     <a href="#" class="button-course-details">კურსის დეტალები</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
+
+    <!-- SLIDER -->
+<!--     <h2 style="padding:20px 120px; background-color: #2b2b2b; margin: 0;">სასწავლო კურსები</h2>
+ -->    <div class="partners-area">
+        <div class="logos-container">
+            <div class="slider">
+                <div class="single-slide active-slide">
+                    <img src="https://static.wixstatic.com/media/93e8a3_a356bb7d201f4f47870683655e9e4120~mv2.png/v1/fill/w_369,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%204_2x_edited.png" alt="Logo 1">
+                    <img src="https://static.wixstatic.com/media/93e8a3_eaf33552ffd5463e96a5f776dda00111~mv2.png/v1/fill/w_362,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/White%20horiz.png" alt="Logo 2">
+                    <img src="https://static.wixstatic.com/media/93e8a3_ae4ade72135b4c7eaa531290232fe5aa~mv2.png/v1/fill/w_375,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/93e8a3_ae4ade72135b4c7eaa531290232fe5aa~mv2.png" alt="Logo 3">
+                </div>
+                <div class="single-slide">
+                    <img src="https://static.wixstatic.com/media/93e8a3_b595f31239344928802dd7135813e17c~mv2.png/v1/fill/w_372,h_107,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tegeta%20logo%20geo.png" alt="Logo 4">
+                    <img src="https://static.wixstatic.com/media/93e8a3_aca86c1c067d4f8585c3c2cb1b0a0178~mv2.png/v1/fill/w_281,h_96,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/93e8a3_aca86c1c067d4f8585c3c2cb1b0a0178~mv2.png" alt="Logo 5">
+                    <img src="https://static.wixstatic.com/media/93e8a3_b6ed8fb2602e4670bc83d1fd4a7d9283~mv2.png/v1/fill/w_468,h_143,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MicrosoftTeams-image%20(9).png" style="width: 250px;" alt="Logo 6">
+            </div>
+                <div class="single-slide">
+                    <img src="https://static.wixstatic.com/media/93e8a3_ef7860c1a2854f1c8fc20f867ffa30ab~mv2.png/v1/fill/w_341,h_96,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UFC%20GEO%20PNG_edited.png"  alt="Logo 7">
+                </div>
+            </div>
+        </div>
+        <img src="./Images/right arrow 1.svg" alt="prev" id="prev">
+        <img src="./Images/right arrow 1.svg" alt="next" id="next">
+        <div class="pagination-dots"></div>
+    </div>
+
+    <!-- Frequently asked questions -->
+
+    <div class="container mt-5 faq-area">
+        <h2>ხშირად დასმული კითხვები</h2>
+      
+        <div class="accordion" id="faqAccordion">
+          <!-- Question 1 -->
+          <div class="card">
+            <div class="card-header" id="question1">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#answer1" aria-expanded="true" aria-controls="answer1">
+                    როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?
+                </button>
+              </h5>
+            </div>
+      
+            <div id="answer1" class="collapse" aria-labelledby="question1" data-parent="#faqAccordion">
+              <div class="card-body">
+                <p>
+                    კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი:
+
+                    </br><span>
+                        I ეტაპი - პირველ ეტაპზე საჭიროა, შეავსო სასურველი კურსისთვის განკუთვნილი სარეგისტრაციო ფორმა, რომელიც განთავსებულია კურსის შიდა გვერდზე. კურსზე რეგისტრაციის დასრულების შემდეგ დაიწყება შემოსული განცხადებების გადარჩევა. 
+
+                        II ეტაპი - შერჩევის მეორე ეტაპი კურსების მიხედვით განსხვავებულია, ზოგიერთი კურსისთვის მოიცავს პრე-ტესტს, ზოგიერთ კურსზე კი უნარების ტესტს, სადაც მინიმალური ზღვარის გადალახვის შემთხვევაში გადახვალ შერჩევის შემდეგ ეტაპზე.
+                        
+                        III ეტაპი - მესამე ეტაპი კურსების მიხედვით განსხვავდება: Advance კურსებზე, სადაც მოითხოვება გარკვეული ტექნიკური ცოდნა, მონაწილეებმა უნდა დაწერონ ტექნიკური ტესტი ცოდნის დონის შესამოწმებლად, ხოლო კურსებზე, სადაც რაიმე ტიპის წინასწარი ცოდნა მოთხოვნილი არ არის უნდა შეასრულოთ ტექნიკური დავალება, რაც თქვენი კვლევისა და თვითსწავლის უნარს ამოწმებს.
+                        
+                        IV ეტაპი - შერჩევის ბოლო მეოთხე ეტაპი მოიცავს გასაუბრებას შესარჩევ კომისიასთან. გასაუბრების წარმატებით გავლის შემთხვევაში ჩაირიცხებით კურსზე და გაფორმდება შესაბამისი ხელშეკრულება.
+                        
+                    </span></br>
+
+                        * სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია, ყურადღებით წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის განმავლობაში და გაიგო გააჩნია თუ არა კურსს დასწრების წინაპირობა. 
+                </p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Question 2 -->
+          <div class="card">
+            <div class="card-header" id="question2">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answer2" aria-expanded="false" aria-controls="answer2">
+                    შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?
+                </button>
+              </h5>
+            </div>
+            <div id="answer2" class="collapse" aria-labelledby="question2" data-parent="#faqAccordion">
+              <div class="card-body">
+                <p>TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა Information Security და Python კურსებისა, სადაც Basic დონის გავლის შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Question 3 -->
+          <div class="card">
+            <div class="card-header" id="question3">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#answer3" aria-expanded="false" aria-controls="answer3">
+                    რა ღირს სწავლა პროგრამის ფარგლებში?
+                </button>
+              </h5>
+            </div>
+            <div id="answer3" class="collapse" aria-labelledby="question3" data-parent="#faqAccordion">
+              <div class="card-body">
+                <p>პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია თიბისი ბანკისა და USAID-ის მიერ.</p>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-area">
+        <div class="footer-wrapper">
+            <div class="rights">
+                <div class="logo">
+                    <img src="https://static.wixstatic.com/media/dd97f4_86c58c47370442a889e9a4e9db4eb00c~mv2.png/v1/crop/x_1,y_0,w_426,h_123/fill/w_159,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%201%402x.png" alt="">
+                    
+                </div>   
+                <p>© 2023 ყველა უფლება დაცულია</p>
+                    <p>წესები და პირობები</p> 
+            </div>
+            <div class="contacts">
+                <div class="social">
+                    <img src="https://static.wixstatic.com/media/ce6ec7c11b174c0581e20f42bb865ce3.png/v1/fill/w_59,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ce6ec7c11b174c0581e20f42bb865ce3.png" alt="facebook">
+                    <img src="https://static.wixstatic.com/media/71ac09a5a92848cc943bf2ca2a09a6d0.png/v1/fill/w_59,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/71ac09a5a92848cc943bf2ca2a09a6d0.png" alt="youtube">
+                </div>
+                <button>მოგვწერეთ</button>
+            </div>
+        </div>
+      </div>
+
+   
+   
+    <script src="slider.js"></script>
+
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </body>
 </html>
